@@ -44,7 +44,7 @@ JOINS:
 FROM (employees
 INNER JOIN companies ON employees.Company = companies.name);
 
-OR: CREATE TABLE companyDetails AS SELECT employees.name, employees.Company, companies.Date FROM (employees INNER JOIN companies ON employees.Company = companies.Name);
+
 
 2) SELECT employees.name, employees.Company, companies.Date
 FROM (employees
